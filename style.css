@@ -1,0 +1,245 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    margin: 0;
+    padding: 0
+    
+}
+header{
+    background-color: rgb(18, 18, 18);
+    color: aliceblue;
+    width: 100%;
+    height: 40px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+   
+}
+header h4{
+    font-size: 20px;
+    padding: 15px;
+}
+header h4 span{
+    color: rgb(212, 234, 13);
+} 
+#home{
+    position: relative;
+    height: 600px;
+    width: 100%;
+    background-color: rgb(26, 24, 23);
+}
+
+
+
+
+.box{
+
+    display: flex;
+    position: absolute;
+    top: 180px;
+    left: 200px;
+   
+
+}
+
+
+#home button{
+    margin-top: 10px;
+    height: 100px;
+    width: 150px;
+    margin: 10px;
+    background-color: rgb(29, 27, 27);
+    color: beige;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+#home p{
+    color: aliceblue;
+    font-size:30px;
+    margin-left: 200px;
+    position: relative;
+    top: 70px;
+
+}
+#home p span{
+    color: yellow;
+    font-weight: 50px;
+}
+#home img{
+    width: 400px;
+    position: absolute;
+    left: 800px;
+    top: 150px;
+    border: 15px solid rgb(236, 231, 231);
+}
+#about{
+    height: 450px;
+    width: 100%;
+    background-color: rgb(43, 39, 39);
+    position: relative;
+}
+#about div{
+    width: 400px;
+    position: absolute;
+    top: 30px;
+    left: 40px;
+
+}
+#about div h3{
+    color: rgb(247, 247, 246);
+    margin-bottom: 30px;
+    text-decoration: underline rgb(245, 239, 239);
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+#about div p{
+    letter-spacing: 1px;
+    font-size: 20px;
+}
+#about img{
+    position: absolute;
+    left: 850px;
+    top: 70px;
+}
+#skill{
+  width: 100%;
+ height: 600px;
+ background: linear-gradient(to left, rgb(27, 25, 25)50%,rgb(223, 223, 45)50% );
+ display: flex;
+ position: relative;
+
+}
+.kkr{
+    display: flex;
+    margin-left: 200px;
+    margin-top: 200px;
+}
+.kkr div{
+   height: 200px;
+   width: 300px;
+   background-color: black;
+   margin: 10px;
+   color: aliceblue;
+   text-align: center;
+   
+}
+.kkr div:hover{
+    background-color: aliceblue;
+    color: black;
+}
+.kkr div h3{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#skill h2{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+#prj{
+    width: 100%;
+    height: 550px;
+   background-color: rgb(90, 90, 61);
+   align-items: center;
+   position: relative;
+}
+#prj h3{
+    font-size: 30px;
+   position: absolute;
+   top: 30px;
+   left: 30px;
+    color: rgb(4, 4, 4);
+    font-weight: bolder;
+}
+#prj .abc{
+    display: flex;
+    margin-left: 150px;
+}
+#prj .abc div{
+    height: 380px;
+    width: 300px;
+    background-color: yellow;
+    margin: 10px;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 70px;
+    border-radius: 8px;
+}
+#prj .abc div:hover{
+    border-radius: 0;
+    
+    box-shadow: 3px 4px 5px;
+}
+.abc div img{
+    width: 90%;
+    height: 150px;
+    border-radius: 30%;
+    padding:13px ;
+}
+.abc div h4{
+    text-align: center;
+    font-size: larger;
+}
+.abc div p{
+    margin-left: 3px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.abc div button{
+    
+    padding: 10px;
+    align-items: center;
+    margin-left: 90px;
+    color: bisque;
+    background-color: black;
+    
+   
+}
+.cv{
+    text-decoration: none;
+    background-color: black;
+    color: beige;
+    border-radius: 10%;
+    margin-left: 700px;
+    margin-top: 10px;
+    padding: 5px;
+    
+}
+
+.hire:hover{
+    background-color: rgb(76, 21, 21);
+    box-shadow: 3px 4px 6px black;
+}
+#contact{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(58, 54, 54);
+    position: relative;
+}
+h1{
+    font-size: 60px;
+    position: absolute;
+    top: 60px;
+    left: 100px;
+    color: aliceblue;
+
+}
+#contact img{
+    width: 100px;
+    height: 100px;
+    margin-top: 200px;
+    margin-left: 200px;
+
+}
+footer{
+    width: 1005;
+    height: 40px;
+    background-color: yellow;
+}
+footer h3{
+   padding: 10px;
+}
+
+
